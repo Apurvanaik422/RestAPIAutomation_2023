@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-23T11:49:40 IST" name="Command line suite" finished-at="2023-12-23T11:49:45 IST" duration-ms="5383">
+    <groups>
+    </groups>
+    <test started-at="2023-12-23T11:49:40 IST" name="Command line test" finished-at="2023-12-23T11:49:45 IST" duration-ms="5383">
+      <class name="TestComponenet.DemloTest">
+        <test-method signature="addPlace()[pri:0, instance:TestComponenet.DemloTest@2cd76f31]" started-at="2023-12-23T11:49:40 IST" name="addPlace" finished-at="2023-12-23T11:49:43 IST" duration-ms="3330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPlace -->
+        <test-method signature="updatePlace()[pri:0, instance:TestComponenet.DemloTest@2cd76f31]" started-at="2023-12-23T11:49:43 IST" name="updatePlace" finished-at="2023-12-23T11:49:44 IST" depends-on-methods="TestComponenet.DemloTest.addPlace" duration-ms="970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePlace -->
+        <test-method signature="getPlace()[pri:0, instance:TestComponenet.DemloTest@2cd76f31]" started-at="2023-12-23T11:49:44 IST" name="getPlace" finished-at="2023-12-23T11:49:45 IST" depends-on-methods="TestComponenet.DemloTest.updatePlace" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPlace -->
+      </class> <!-- TestComponenet.DemloTest -->
+      <class name="TestComponenet.LibraryApiTest">
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:TestComponenet.LibraryApiTest@61322f9d]" started-at="2023-12-23T11:49:45 IST" name="addBook" data-provider="addBook" finished-at="2023-12-23T11:49:45 IST" duration-ms="131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dpfgfha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9961]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:TestComponenet.LibraryApiTest@61322f9d]" started-at="2023-12-23T11:49:45 IST" name="addBook" data-provider="addBook" finished-at="2023-12-23T11:49:45 IST" duration-ms="98" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dpfgfha1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[99611]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="deleteBook(java.lang.String)[pri:0, instance:TestComponenet.LibraryApiTest@61322f9d]" started-at="2023-12-23T11:49:45 IST" name="deleteBook" data-provider="deletebookdata" finished-at="2023-12-23T11:49:45 IST" depends-on-methods="TestComponenet.LibraryApiTest.addBook" duration-ms="66" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dpfgfha9961]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBook -->
+        <test-method signature="deleteBook(java.lang.String)[pri:0, instance:TestComponenet.LibraryApiTest@61322f9d]" started-at="2023-12-23T11:49:45 IST" name="deleteBook" data-provider="deletebookdata" finished-at="2023-12-23T11:49:45 IST" depends-on-methods="TestComponenet.LibraryApiTest.addBook" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dpfgfha199611]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBook -->
+      </class> <!-- TestComponenet.LibraryApiTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
